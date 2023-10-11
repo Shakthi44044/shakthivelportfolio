@@ -23,7 +23,7 @@ import image from "../images/background.jpg";
 // Remove this line since image is already imported above
 // import image from "../images/motion-background.jpg";
 
-const imageAltText = "purple and blue abstract background";
+const imageAltText = "glow like  a star burn like a pheonix";
 
 /**
  * Sort description that expands on your title on the Home component.
@@ -58,14 +58,14 @@ const About = () => {
       <img className="background" src={image} alt={imageAltText} />
       <div
         style={{
-          backgroundColor: "LightSalmon",
+          backgroundColor: "#F87E53",
           width: "50%",
           padding: "4rem",
           margin: "3rem auto",
           textAlign: "center",
         }}
       >
-        <h2>About Myself</h2>
+        <h2>About</h2>
         <p className="large">{description}</p>
         <hr />
         <ul
