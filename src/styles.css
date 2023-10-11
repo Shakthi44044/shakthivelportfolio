@@ -90,7 +90,7 @@ li {
 }
 
 li::marker {
-  color: #4e567e;
+  color: #cc3419ea;
 }
 
 a {
@@ -99,7 +99,7 @@ a {
 }
 
 a:hover {
-  color: #4e567e;
+  color: #cc3419ea;
 }
 
 .container {
@@ -111,7 +111,7 @@ a:hover {
 
 .container .box {
   border-radius: 10px;
-  border: 1px solid rgb(204, 204, 204);
+  border: 1px solid rgba(233, 100, 60, 0.897);
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
