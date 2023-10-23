@@ -10,33 +10,38 @@ import React from "react";
  * About background image
  *
  * Below is a sample image. Upload the image of your choice into the "images"
- * directory and import here for use. Then, set imageAltText to string that 
+ * directory and import here for use. Then, set imageAltText to string that
  * represents what you see in that image.
  *
  * Need an image? Check out https://unsplash.com to download a image you
  * freely use on your site.
  */
-import image from "../images/motion-background.jpg";
+import image from "../images/background.jpg";
 
-const imageAltText = "purple and blue abstract background";
+// Remove this line since imageAltText is already declared below
+// const imageAltText = "purple and blue abstract background";
+// Remove this line since image is already imported above
+// import image from "../images/motion-background.jpg";
+
+const imageAltText = "glow like  a star burn like a pheonix";
 
 /**
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+  "Data science and artificial intelligence enthusiast with a passion for solving complex problems. As a student of this dynamic field, I'm constantly learning and exploring new ways to extract insights from data and apply machine learning techniques to create intelligent systems. Let's connect and explore the possibilities together!";
 
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */
 const skillsList = [
-  "Web design",
-  "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
-  "Graphic design",
+  "Data analysis",
+  "Data visualization",
+  "Machine learning",
+  "Data scraping",
+  "Front-end development",
+  "Back-end development",
 ];
 
 /**
@@ -45,7 +50,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+  "I'm a self-motivated, hardworking, and goal-oriented individual who is passionate about learning new things and solving problems. I'm always looking for opportunities to learn and grow.";
 
 const About = () => {
   return (
@@ -53,14 +58,14 @@ const About = () => {
       <img className="background" src={image} alt={imageAltText} />
       <div
         style={{
-          backgroundColor: "white",
+          backgroundColor: "#F87E53",
           width: "50%",
           padding: "4rem",
           margin: "3rem auto",
           textAlign: "center",
         }}
       >
-        <h2>About Myself</h2>
+        <h2>About</h2>
         <p className="large">{description}</p>
         <hr />
         <ul
